@@ -106,6 +106,7 @@ while True:
         if turn == 'Player 1':
             # Player1's turn.
             print(turn + ' will go first.')
+            # insert timer here 
             
             display_board(theBoard)
             position = player_choice(theBoard)
