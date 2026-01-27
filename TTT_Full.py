@@ -52,8 +52,12 @@ def choose_first():
     else:
         return 'Player 2'
     
+"""Like a coin flip. A random integer (0,1) is chosen and if 0, Player 1 goes first (and vice-versa)"""
+    
 
 # Is there a win? 
+
+"""Checking if a 'O' or 'X' occupies a column, row or diagonal. If so, winner is declared"""
 def win_check(board,mark):
     
     return ((board[7] == mark and board[8] == mark and board[9] == mark) or # across the top
