@@ -22,6 +22,9 @@ def display_board(board):
     
 
 # What marker is Player 1?
+
+'''Prompting player to insert 'X' or 'O' for a marker'''
+
 def player_input():
     marker = ''
     
@@ -70,11 +73,19 @@ def win_check(board,mark):
     (board[9] == mark and board[5] == mark and board[1] == mark)) # diagonal
 
 # Is there a free space?
+
+'''Checks for free space on the board. 
+If so, player can choose the position to occupy the free space in   player_choice() '''
 def space_check(board, position):
     
     return board[position] == ' '
 
 # Is the board full? 
+
+'''Checks for a full board. 
+- If there's free spaces, False is returned.
+- True if the board is full.'''
+
 def full_board_check(board):
     for i in range(1,10):
         if space_check(board, i):
@@ -82,6 +93,11 @@ def full_board_check(board):
     return True
 
 # Player chooses position
+
+'''Player chooses position of marker. 
+- While there are free spaces, the player will be prompted to choose a position '''
+
+
 def player_choice(board):
     position = 0
     
