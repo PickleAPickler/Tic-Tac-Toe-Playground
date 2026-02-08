@@ -6,6 +6,7 @@
  # Creating function for board
 
 import os
+import time
 
 def display_board(board):
     
@@ -96,8 +97,16 @@ while True:
     theBoard = [' '] * 10
     player1_marker, player2_marker = player_input()
     turn = choose_first()
-    # print(turn + ' will go first.')
+    print(turn + ' will go first.')
 
+# Game start timer
+
+    """ Game starts after 5 seconds. This is so each player can see who's going first. """
+
+    print('game will begin in 5 seconds...')
+    time.sleep(5)
+
+# Game Loop
     
     game_on = True
 
@@ -105,8 +114,6 @@ while True:
 
         if turn == 'Player 1':
             # Player1's turn.
-            print(turn + ' will go first.')
-            # insert timer here 
             
             display_board(theBoard)
             position = player_choice(theBoard)
@@ -126,8 +133,7 @@ while True:
 
         else:
             # Player2's turn.
-            print(turn + ' will go first.')
-
+            
             display_board(theBoard)
             position = player_choice(theBoard)
             place_marker(theBoard, player2_marker, position)
