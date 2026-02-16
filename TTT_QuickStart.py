@@ -1,6 +1,6 @@
 
 ### Quick Start game - no 'ready to play' option
-# SKIP TO LINE 90 FOR GAME LOOP
+# SKIP TO LINE 109 FOR GAME LOOP
 
 
  # Creating function for board
