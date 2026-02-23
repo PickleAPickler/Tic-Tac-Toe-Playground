@@ -15,7 +15,7 @@ def display_board(board):
     print('|' + board[1] + '|' +  board[2] + '|' + board[3] + '|')
 
 
-'''player input not needed - there is only one player in WinsOnly '''
+'''player input not necessary - there is only one player in WinsOnly '''
 
 # 2. PLAYER INPUT -> WHOS WHAT MARKER, X OR O?
 
