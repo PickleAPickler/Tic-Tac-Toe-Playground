@@ -1,5 +1,7 @@
 
 ## Display Board 'game': The board is displayed - that's the game! 
+
+""" I call it a 'game', but it's really a test is to understand how the board is shown during the game"""
  
 
 
