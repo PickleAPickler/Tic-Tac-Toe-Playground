@@ -30,12 +30,7 @@
 - 'TTT Tests' + 'In progress' will contain some duplicate code from TTT_Full.py.
 - Any changes to the code will be commented upon, as opposed to more full explanation of the code (in TTT_Full.py)
 
-### My learning:
 
-- Learning to debug
-- Python tests
-- Making GUIs
-- Learning Web Dev in Python through Flask 
 
 
 
