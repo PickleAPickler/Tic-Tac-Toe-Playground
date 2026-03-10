@@ -1,10 +1,16 @@
 
 ## Pierian data source code
 
-# Has this commited?
+"""
+To DO:
+- Make instructions for the number placement on the board
+- Turn win_check  into a for loop? 
+- check outputs with unittests
+
+"""
 
 
-# Creating function for board
+# 1 Creating function for board
 
 """
 Prints out a board of nine spaces in the style of a telephone keypad
@@ -64,6 +70,8 @@ def choose_first():
 
 """Checking if a 'O' or 'X' occupies a column, row or diagonal. If so, winner is declared"""
 def win_check(board,mark):
+
+    # can this be a    for   loop? 
     
     return ((board[7] == mark and board[8] == mark and board[9] == mark) or # across the top
     (board[4] == mark and board[5] == mark and board[6] == mark) or # across the middle
