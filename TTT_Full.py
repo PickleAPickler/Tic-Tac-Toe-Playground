@@ -15,8 +15,20 @@ To DO:
 """
 Prints out a board of nine spaces in the style of a telephone keypad
 """
-
+import unittest
 import os
+
+
+#region UNITTEST ODDESSY
+# https://docs.python.org/3/library/unittest.html#unittest.TestCase:~:text=debugger%2E-,The,manager
+
+# class TestTTT(unittest.TestCase):
+
+#     def test_displayB(self):
+        # TBC...
+
+#endregion UNITTEST ODDESSY
+
 
 def display_board(board):
     
